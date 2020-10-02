@@ -21,3 +21,5 @@ def check(x):
         or x == 30
     ):
         print("Why even?")
+        
+import os, sys
