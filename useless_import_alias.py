@@ -14,10 +14,7 @@ from ..foo import bar as bar
 from ..foo.bar import foobar
 from ..foo.bar import foobar as anotherfoobar
 from . import foo as foo, foo2 as bar2
-from . import (
-    foo as bar,
-    foo2
-)
+from . import foo as bar, foo2
 from . import foo as bar, foo2 as bar2
 from foo.bar import foobar
 from foo.bar import foobar as foo
