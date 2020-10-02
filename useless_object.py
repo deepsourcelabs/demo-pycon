@@ -6,8 +6,5 @@ class SomeClass(object):
     """Dummy Class."""
 
 
-class BasicExample(
-    object,
-    Good
-):
+class BasicExample(object, Good):
     """Class Doc."""

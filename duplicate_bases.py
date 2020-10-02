@@ -1,4 +1,6 @@
 import abc
+
+
 class Base:
     def __init__(self):
         self.base = 1
@@ -20,6 +22,6 @@ class ChildOne(
     BaseOne,  # Duplicate
     abc.ABC,
     abc.ABCMeta,
-    abc.ABCMeta
+    abc.ABCMeta,
 ):
     """Class with duplicate bases"""
