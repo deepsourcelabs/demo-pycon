@@ -12,6 +12,3 @@ def check(x):
 
     elif x == 10 or x == 20 or x == 30:
         print("Why even?")
-
-
-import os, sys
