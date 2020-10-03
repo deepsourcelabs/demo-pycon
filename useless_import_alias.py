@@ -20,6 +20,3 @@ from foo.bar import foobar as foobar
 from foo.bar import foobar as foo
 from .foo.bar import f as foobar
 import sys as sys
-
-
-import this
